@@ -1,5 +1,5 @@
 import App from "../_app";
-export default function TestPage() {
+export default function RegisterPage() {
   return (
     <div className="min-h-screen bg-neutral-900 flex items-center justify-center">
       <div className="flex flex-row">
@@ -35,6 +35,14 @@ export default function TestPage() {
                   type="text"
                   className="w-full h-12 px-4 transition-all bg-zinc-700 text-white border-2 border-zinc-700 focus:border-violet-600 hover:border-violet-600 rounded-e-lg focus:outline-none"
                   placeholder="Password"
+                />
+              </div>
+              <div className="w-full flex flex-row justify-center items-center mt-2">
+                <div className="w-16 h-full rounded-s-lg bg-violet-600 flex justify-center items-center"><i className="fa-solid fa-lock text-white text-sm"></i></div>
+                <input
+                  type="text"
+                  className="w-full h-12 px-4 transition-all bg-zinc-700 text-white border-2 border-zinc-700 focus:border-violet-600 hover:border-violet-600 rounded-e-lg focus:outline-none"
+                  placeholder="Confirm Password"
                 />
               </div>
             </div>
@@ -78,3 +86,4 @@ export default function TestPage() {
     </div>
   );
 }
+
